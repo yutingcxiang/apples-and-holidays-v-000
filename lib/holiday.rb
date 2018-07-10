@@ -63,6 +63,7 @@ def all_supplies_in_holidays(holiday_hash)
       cap_holidays.each do |day|
         day.capitalize!
       end
+      capitalized = cap.holidays.join()
       end
   end
 end
