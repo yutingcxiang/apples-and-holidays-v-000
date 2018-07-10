@@ -58,7 +58,8 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   holiday_hash.each do |season, holiday|
     str = holiday.to_s.split
-    str.capitalize!.join
+    str.capitalize!
+    str.join
     holiday.values.flatten
   end
 end
