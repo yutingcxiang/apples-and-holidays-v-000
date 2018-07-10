@@ -60,7 +60,7 @@ def all_supplies_in_holidays(holiday_hash)
     holidays.each do |holiday, supply|
       str = holiday.to_s
       str.capitalize!
-      holiday.values.flatten
+      supply.values.flatten
     end
   end
 end
